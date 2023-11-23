@@ -1,4 +1,5 @@
 - hosts: all 
+  become: yes
   tasks:
     - ansible.builtin.debug:
         msg: "host passed"
