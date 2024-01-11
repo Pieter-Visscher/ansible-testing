@@ -4,3 +4,5 @@
   tasks:
     - ansible.builtin.debug:
         msg: "host passed"
+    - ansible.builtin.debug:
+        msg: {{ test }}
